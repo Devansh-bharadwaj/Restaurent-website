@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="phone.css" media="screen and (max-width: 1170px)">
+    <link rel="stylesheet" href="phone.css">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&family=Bree+Serif&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -189,6 +189,52 @@
         #contact-box label {
             font-size: 1.3rem;
             font-family: 'Bree Serif', serif;
+        }
+        @media only screen and {
+            #navbar {
+    flex-direction: column;
+}
+#navbar ul li a {
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+#services {
+    flex-direction: column;
+}
+#clients {
+    flex-wrap: wrap;
+}
+#clients img {
+    width: 40px;
+    padding: 0;
+    height: auto;
+}
+#home {
+    height: 473px;
+    padding: 3px 28px;
+}
+#home p {
+    font-size: 13px;
+}
+#home::before {
+    height: 480px;
+}
+.h-primary {
+    font-size: 26px;
+}
+.btn {
+    padding: 4px 8px;
+}
+#contact-box form {
+    width: 80%;
+}
+#services .box img {
+    height: 100px;
+}
+#services {
+    margin: 2px 0;
+}
         }
     </style>
 </head>
